@@ -1,18 +1,21 @@
 .header {
-    --header-text-color: #1aff00;
-    display: flex;
-    gap: 20px;
-    background-color: black;
-    height: 100px;
-    align-items: center;
-    padding-left: 20px;
+  --header-text-color: #1aff00;
+  display: flex;
+  gap: 20px;
+  background-color: black;
+  height: 100px;
+  align-items: center;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .menu-logo {
-    width: 200px;
-    height: 100px;
-    color: var(--header-text-color);
+  width: 200px;
+  height: 100px;
+  color: var(--header-text-color);
 }
 
 .menu-item {
-    color: var(--header-text-color);
+  color: var(--header-text-color);
 }
