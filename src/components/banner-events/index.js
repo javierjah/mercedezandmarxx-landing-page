@@ -1,11 +1,11 @@
-import EventsImg from "../../assets/images/events.jpg";
+import BandImage from "../../assets/images/band_image.jpg";
 
 import "./banner.css";
 
 function BannerEvents() {
   return (
     <div className="banner-events">
-      <img src={EventsImg} alt="events img" />
+      <img src={BandImage} alt="Band img" />
     </div>
   );
 }
