@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import EventsBanner from "./components/banner-events";
 import NewAlbum from "./components/new-album";
+import Tweets from "./components/tweets/img-tweets";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <EventsBanner />
       <NewAlbum />
+      <Tweets />
     </div>
   );
 }
