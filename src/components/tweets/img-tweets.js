@@ -4,8 +4,8 @@ import "./tweets.css";
 
 function TweetsImg() {
   return (
-    <div className="banner-events">
-      <img src={tweetsImg} alt="events img" />
+    <div className="tweets-img">
+      <img src={tweetsImg} alt="tweets img" />
     </div>
   );
 }
