@@ -5,6 +5,7 @@ import Icon from "../../assets/images/icon_no_bg.png";
 function Header() {
   return (
     <header className="header">
+
       <img className="menu-logo" src={Icon} alt="" />
       <div className="menu-item">home</div>
       <div className="menu-item">somos</div>

@@ -1,0 +1,29 @@
+/* 1th way */
+/* .new-album-banner .new-album-img {
+    width: 200px;
+} */
+
+/* 2th way */
+/* .new-album-banner img {
+    width: 200px;
+} */
+
+/* 3th way this is the more specific */
+/* .app .new-album-banner img {
+    width: 300px;
+} */
+
+/* 4th way */
+/* img {
+    width: 250px;
+} */
+.new-album-banner {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+/* 4th way */
