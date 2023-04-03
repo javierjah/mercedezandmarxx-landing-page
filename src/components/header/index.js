@@ -5,8 +5,12 @@ import Icon from "../../assets/images/icon_no_bg.png";
 function Header() {
   const menuItems = (
     <>
-      <li className="menu-item">home</li>
-      <li className="menu-item">somos</li>
+      <li className="menu-item">
+        <a href="/">Home</a>
+      </li>
+      <li className="menu-item">
+        <a href="/about">About us</a>
+      </li>
       <li className="menu-item">releases</li>
       <li className="menu-item">videos</li>
       <li className="menu-item">bootlegger</li>
@@ -16,7 +20,7 @@ function Header() {
 
   return (
     <header className="header">
-      <img className="menu-logo" src={Icon} alt="menu-logo" />
+      <img href="/" className="menu-logo" src={Icon} alt="logo" />
       <nav data-state="desktop">
         <ul className="menu-desktop">{menuItems}</ul>
       </nav>
